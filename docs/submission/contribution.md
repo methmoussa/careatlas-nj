@@ -41,9 +41,9 @@ HRSA source links and provenance are retained. This review did not verify a data
 
 ## Development and AI assistance
 
-The author reports beginning implementation **August 1, 2026** and never entering substantially the same project elsewhere. GitHub was created later: September 5–12 commits imported an already-existing project in installments. Those commits are an upload chronology, not a reconstruction of daily development. September 13 cleanup made local setup and tests self-contained. September 14 review corrected SVI labels and broadened print availability, and added this submission package.
+The author confirms that implementation began **August 1, 2026** and that substantially the same project has never been entered elsewhere. GitHub history begins September 5, when an existing local worktree was uploaded in installments through September 12. Those commits document publication of the worktree, not day-by-day development. September 13 cleanup made local setup and tests self-contained. September 14 review corrected SVI labels, broadened print availability and added this submission package.
 
-Older source-check/generation dates exist in the imported material and have not been independently reconciled with the author's timeline. They must not be presented as verified development milestones. See the [methods review](methods-review.md).
+The imported worktree contains earlier June/July date fields in source, review and generated artifacts, including CareAtlas-specific planning and promotion reports. The author confirms that those fields do **not** record implementation activity. They remain visible rather than being silently rewritten, and they must not be presented as development milestones. Because no contemporaneous pre-import Git history is available, the August 1 start is an author attestation rather than an independently verified date. See the [methods review](methods-review.md).
 
 OpenAI ChatGPT/Codex assisted with code changes, debugging, tests, repository organization, documentation, browser QA and submission preparation. Gemini is an optional runtime explanation feature; it is disabled on the live site as checked September 14. It does not calculate flags. Do not claim the project was written without AI assistance or that AI review supplied human validation.
 

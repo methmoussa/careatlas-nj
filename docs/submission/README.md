@@ -30,7 +30,7 @@ The fixes were deployed to the [live site](https://careatlas.lmayzel930.workers.
 | Five resident sessions | **0 completed.** Agent scenarios do not count as residents. |
 | Independent public-health/GIS methods review | **0 completed.** The AI desk review is not external expert validation. |
 | Native download / print preview / clipboard round trip | Browser bridge did not expose completion; end-to-end verification remains open. |
-| Source chronology | Imported June/July metadata needs reconciliation with the author-reported August 1 implementation start. |
+| Development chronology | Author confirms an August 1 implementation start. Git begins September 5 with staged uploads of an existing local worktree; preserved June/July fields in imported artifacts are disclosed as non-development metadata. The start date is author-attested, not independently verified by Git history. |
 | Dataset reuse notices | Source and general publisher policies documented; dataset-specific HRSA grant not verified. |
 | Public repository access | Public visibility authorized by the author and verified in GitHub on September 15, 2026. |
 | Hosted demo video and Devpost submission | Devpost draft gallery saved and previewed in this order: brand card, Newark facility map, Edison dermatology offices, tract evidence. Author will record a new live demo using the script; video URL intentionally blank. No final submission. |

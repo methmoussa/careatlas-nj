@@ -4,13 +4,25 @@
 [![License: MIT](https://img.shields.io/badge/code_license-MIT-0f766e.svg)](LICENSE)
 [![Live app](https://img.shields.io/badge/live_app-open-003B66.svg)](https://careatlas.lmayzel930.workers.dev)
 
-CareAtlas turns public healthcare-access evidence into an explorable New Jersey map covering 21 counties, 564 towns/townships, 2,181 census tracts, and source-backed healthcare facility locations. Residents can start with a town or street address, inspect tract-level screening results, and trace every explanation back to its source.
+CareAtlas NJ is a deployed public-data integration and explanation system for New Jersey healthcare access. It brings Census, CDC, HRSA and CMS evidence into one interface spanning all 21 counties, 564 towns/townships and 2,181 census tracts. People can explore 215 source-backed healthcare facility locations—hospitals and community health centers—search a clearly labeled 734-location doctor-office pilot, and inspect tract screening results whose inputs, rule version, source dates and limitations remain visible.
 
 [Explore the live app](https://careatlas.lmayzel930.workers.dev) · [Read the project story](https://careatlas.lmayzel930.workers.dev/story) · [Review the submission package](docs/submission/README.md)
 
 ![CareAtlas NJ project card](docs/submission/assets/careatlas-brand-card.png)
 
 > **CareAtlas is a screening and planning tool—not medical advice, a diagnosis, a provider ranking, or proof that care is unavailable.**
+
+## What makes it different
+
+CareAtlas does not infer healthcare access from map pins or hide evidence inside a black-box score. Its contribution is the integration and explanation layer:
+
+- Join official public-health and geography evidence with consistent identifiers.
+- Preserve missing values, source versions and row-level provenance instead of filling gaps silently.
+- Apply a published, versioned screening rule and validate all 2,181 generated tract records.
+- Keep facility and doctor-office locations separate from the screening calculation.
+- Package each result with readable reasoning, source dates, limitations and shareable records.
+
+That design makes complex public evidence easier to inspect without claiming to diagnose individuals, rank providers or prove that care is available or unavailable.
 
 ## What it includes
 
